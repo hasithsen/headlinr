@@ -19,7 +19,7 @@ get_rand_int() {
   return $((RANDOM % hl_count))
 }
 
-hl_dir="/home/mininet/scripts/headlinr/headlines"
+hl_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )/headlines"
 last_rand_int=$(cat "${hl_dir}/../last_rand_int.txt")
 get_rand_int
 rand_int=$?
@@ -35,4 +35,4 @@ content_file="${hl_dir}/hl_${rand_int}.txt"
 #cat "${content_file}" | lolcat -h .32 -v .44
 display_center "${content_file}"| lolcat -r #-h .32 -v .44
 #display_right "${content_file}" | lolcat -r #-h .32 -v .44
-#echo "" # empty-line-delimiter gets printed
+echo "" # empty line

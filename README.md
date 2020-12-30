@@ -2,10 +2,13 @@
 
 Displays a message on top of every new terminal session you spawn
 
+![headlinr.PNG](/screenshots/headlinr.PNG?raw=true "Screenshot")
+
 ### Setup
 
 1. Leave directory structure unchanged.
 2. Add absolute path to ```headlinr.sh``` in your ```.*rc```.
+3. If ```lolcat``` is not present, remove it from ```headlinr.sh```
 
 Ex:
 

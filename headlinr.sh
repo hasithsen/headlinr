@@ -33,6 +33,6 @@ echo ${rand_int} > "${hl_dir}/../last_rand_int.txt"
 content_file="${hl_dir}/hl_${rand_int}.txt"
 
 #cat "${content_file}" | lolcat -h .32 -v .44
-display_center "${content_file}"| lolcat -r #-h .32 -v .44
-#display_right "${content_file}" | lolcat -r #-h .32 -v .44
+display_center "${content_file}"| lolcat #-h .32 -v .44
+#display_right "${content_file}" | lolcat #-h .32 -v .44
 echo "" # empty line

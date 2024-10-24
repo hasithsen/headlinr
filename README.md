@@ -7,8 +7,9 @@ Displays a message on top of every new terminal session you spawn
 ### Setup
 
 1. Clone with git or download zip. Leave directory structure unchanged.
-2. Add absolute path to ```headlinr.sh``` in your ```.*rc```.
-3. If ```lolcat``` is not present, remove it from ```headlinr.sh```
+2. Make ```headlinr.sh``` executable with ```chmod u+x headlinr.sh```.
+3. Add absolute path to ```headlinr.sh``` in your ```.*rc```.
+4. If ```lolcat``` is not present, remove it from ```headlinr.sh```
 
 Ex:
 
